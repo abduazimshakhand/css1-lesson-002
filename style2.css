@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+/* flex-wrap */
+.container{
+    width: 80%;
+    height: auto;
+    background-color: red;
+    /* align-items: center;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap-reverse; /* flex-flow bu flex-direction flex-wrap ni bittada yozish usuli*/
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+.item{
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(150, 150, 118);
+
+    
+}
+.wrapper{
+    background-color: yellow;
+    width: 950px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+ 
+/* .self_container{
+    width: 70%;
+    height: 400px;
+    background-color: dodgerblue;
+    display: flex;
+}
+.self_itemone{
+    width: 50%;
+    height: 200px;
+    background-color: forestgreen;
+    align-self: center;
+}
+.self_itemtwo{
+    width: 50%;
+    height: 200px;
+    background-color: purple;
+} */
+/* .basis_container{
+    width: 70%;
+    height: 400px;
+    background-color: royalblue;
+    display: flex;
+}
+.basis_item{
+    flex-basis: 300px; 
+    height: 200px;
+    background-color: sandybrown;
+} */
+ /* flex basis=width  o'rniga ishlatsa bo'ladi */
+ /* .grow_container{
+     display: flex;
+     width: 80%;
+     height: 200px;
+     background-color: red;
+ }
+ .grow_itemone{
+     width: 300px;
+     height: 100px;
+     background-color: seagreen;
+     flex-shrink: 1;
+ }
+ .grow_itemtwo{
+    width: 300px;
+    height: 100px;
+    background-color: slateblue;
+    flex-shrink: 2;
+}
+.grow_itemthree{
+    width: 300px;
+    height: 100px;
+    background-color: violet;
+    flex-shrink: 3;
+} */
+
+    
+    

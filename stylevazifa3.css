@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.products{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(214, 214, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.product{
+    height: 310px;
+    width: 260px;
+    background-color: brown;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.wrapper{
+    width: 1280px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imeg1{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1618416563-screen-shot-2021-04-14-at-12-09-04-pm-1618416552.png);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.imeg2{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://blog.grabon.in/wp-content/uploads/2019/02/Reebok-Shoes.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: contain;
+    background-position: center;
+}
+.imeg3{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-d_agkqMG57IpU7F08b8ZFXj3uKoP_9AHHA&usqp=CAU);
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center;
+}
+.imeg4{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQwE25BvxZC432KA7RGdPkVhptCu_8oQTPJg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+}
+.imeg5{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdEqZ0XjRqteVYmTRbFmC3XIL0epdRtKYhxQ&usqp=CAU); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    
+}
+.imeg6{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://cdn.cliqueinc.com/posts/280098/shoe-brands-spiking-google-trends-280098-1558573412963-main.700x0c.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    background-position: center;
+}
+.imeg7{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3uV4-HiLbBUUxLJSyzS8uLitaesDkpcASVCj80sD0fyyPeuW1IVGaHgtxNwJjgQDkEk8&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    background-position: center;
+}
+.imeg8{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url(https://cdn.cliqueinc.com/posts/280098/shoe-brands-spiking-google-trends-280098-1558573927253-main.700x0c.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    background-position: center;
+    
+}
+
+.product_info{
+    width: 100%;
+    height: 35%;
+    background-color: #f0ecec;
+}
+.name{
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    
+
+}
+.info{
+    margin-top: 8px;
+    margin-left: 60px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.product_info>i{
+    color: gray;
+}
+.button{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    background-color: red;
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+}
+.stars{
+    list-style-type: none;
+    display: flex;
+    margin-left: 10px;
+    
+    
+}
+.button_stars{
+    border: 0.1px solid   #dddbdb;
+    background-color: transparent;
+    margin-right: 2px;
+    
+
+}
+.button_stars>i{
+    color: red;
+}
+.price{
+    margin-left: 100px;
+}
+.button_stars>p{
+    color: #d6d3d3;
+}

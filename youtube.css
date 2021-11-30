@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.youtube{
+    width: 250px;
+    height: 100vh;
+    background-color: blue;
+    font-family: sans-serif;
+}
+.ikon>i{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 10px;
+
+}
+.ikon>b{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #585858;
+ 
+}
+.ikon>b>i{
+    color: #FF0000;
+   
+}
+.ikon_menu{
+    margin-top: 20px;
+    margin-left: 15px;
+    list-style-type: none;
+    
+}
+.ikon_menu>li>i{
+    margin-top: 10px;
+}
+.ikon_menu>li>b{
+    margin-left: 15px;
+}
+.button{
+    width: 100%;
+    height: 1px;
+    border: 0.5px solid transparent;
+    color: #E5E5E5;
+}
+.ikon_menu2{
+    margin-top: 15px;
+    margin-left: 15px;
+    list-style-type: none;
+}
+.button_ikon{
+    width: 250px;
+    height: 25px;
+    border: 0.5px solid transparent;
+    color: #E5E5E5;
+    margin-left: -15px;
+}
+.button_ikon>p{
+    margin-left: -110px;
+    color: black;
+
+}
+.button_ikon>p>b{
+    margin-left: 15px;
+}
